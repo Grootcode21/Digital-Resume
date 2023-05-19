@@ -14,3 +14,23 @@
     box-sizing: border-box;
     color: var(--mainTextColor);
  }
+ body {
+    background-color: var(--mainBgColor);
+ }
+ p,span, li {
+    color: var(--secondaryTextColor);
+    font-size: 1em;
+ }
+ a {
+    text-decoration: none;
+    color: var(--mainLinkColor);
+    font-size: 600;
+ }
+ li {
+    line-height: 1.8em;
+ }
+
+ #container--main {
+    max-width: 700px;
+    margin: 0 auto;
+ }
