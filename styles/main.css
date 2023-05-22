@@ -58,3 +58,28 @@
    object-fit: cover;
 
  }
+
+ #socials--list{
+   display: flex;
+   justify-content: space-between;
+   column-gap: 16px;
+   flex-wrap: wrap;
+ }
+
+ #my--site {
+   color: var(--mainTextColor);
+ }
+
+ #socials--list a{
+   font-size: 0.9em;
+   color: var(--secondaryTextColor);
+   transition: 0.3s;
+ }
+
+ #socials--list a:hover{
+   color: var(--mainLinkColor);
+ }
+
+ .qualifications--list {
+   list-style: none;
+ }
